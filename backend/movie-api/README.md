@@ -1,8 +1,8 @@
-Overview
+## Overview
 Movie API
 Esta aplicação é uma API backend desenvolvida com o framework NestJS para gerenciar o cadastro e autenticação de usuários, além de permitir a busca de filmes e atores. A API foi projetada para ser eficiente e escalável, oferecendo uma base sólida para operações relacionadas a dados de usuários e informações de filmes.
 
-Funcionalidades Principais
+## Funcionalidades Principais
 Cadastro de Usuários: Permite que novos usuários sejam registrados no sistema.
 Autenticação de Usuários: Fornece funcionalidade de login para que os usuários possam acessar o sistema com segurança.
 Busca de Filmes: Oferece endpoints para buscar filmes por diferentes critérios, como título ou gênero.
@@ -15,8 +15,10 @@ Passport e JWT: Utilizados para a autenticação de usuários.
 MySQL/PostgreSQL: Banco de dados utilizados para armazenamento de informações.
 Axios: Biblioteca para realizar chamadas HTTP a serviços externos.
 
-Como Iniciar o Projeto Localmente
-Passo a Passo
+## Como Iniciar o Projeto Localmente
+
+## Passo a Passo
+
 Clone o Repositório:
 
 Comece clonando o repositório em sua máquina local. Use o comando abaixo no terminal:
@@ -53,6 +55,8 @@ npm run typeorm migration:run
 Inicie a Aplicação:
 
 npm run start:dev
+
+## Endpoints
 
 Pesquisa por nome: http://localhost:3000/movies/search?q=inception
 
