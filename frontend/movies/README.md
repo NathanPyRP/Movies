@@ -1,3 +1,52 @@
+## Overview
+## Movie Page Frontend
+Este é o frontend de uma aplicação de filmes desenvolvida utilizando Next.js. A aplicação permite a busca de filmes e atores, além de fornecer funcionalidades de CRUD (Create, Read, Update, Delete) para gerenciamento de usuários. Os estados da aplicação são gerenciados utilizando a biblioteca Zustand, proporcionando uma maneira eficiente e leve de manipular o estado global.
+
+## Funcionalidades Principais
+Busca de Filmes e Atores: Interface intuitiva para pesquisar filmes e atores.
+CRUD de Usuários: Gerencie usuários com as operações de criação, leitura, atualização e exclusão.
+Gerenciamento de Estado com Zustand: Utiliza Zustand para um controle de estado centralizado e reativo.
+
+## Tecnologias Utilizadas
+Next.js: Framework React para desenvolvimento de aplicações web modernas e performáticas.
+React: Biblioteca JavaScript para construção de interfaces de usuário.
+Styled-components: Para estilização de componentes com suporte a temas dinâmicos.
+Zustand: Biblioteca leve para gerenciamento de estado.
+
+## Como Iniciar o Projeto Localmente
+## Passo a Passo
+
+1 - Clone o Repositório:
+Comece clonando o repositório em sua máquina local. Use o comando abaixo no terminal:
+
+```bash
+git clone https://github.com/NathanPyRP/Movies.git
+```
+2 - Navegue até o Diretório do Projeto:
+Após clonar o repositório, navegue até o diretório do projeto:
+
+```bash
+cd caminho-do-projeto-na-sua-maquina
+```
+3 - Instale as Dependências:
+Antes de iniciar a aplicação, é necessário instalar todas as dependências do projeto. Execute o seguinte comando
+
+```bash
+npm install
+```
+
+4 - Inicie a Aplicação:
+Para iniciar a aplicação em ambiente de desenvolvimento, use o seguinte comando:
+
+```bash
+npm run dev
+```
+
+Isso iniciará o servidor de desenvolvimento, e você poderá acessar a aplicação em http://localhost:3000 no seu navegador.
+
+5 - Acessar a Aplicação:
+Agora que a aplicação está rodando, você pode começar a interagir com a interface para buscar filmes e atores, além de utilizar o CRUD de usuários.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
