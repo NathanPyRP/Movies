@@ -59,7 +59,9 @@ npm run typeorm migration:run
 
 Inicie a Aplicação:
 
+```bash
 npm run start:dev
+```
 
 ## Endpoints
 
