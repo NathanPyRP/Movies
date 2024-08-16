@@ -23,17 +23,22 @@ Clone o Repositório:
 
 Comece clonando o repositório em sua máquina local. Use o comando abaixo no terminal:
 
+```bash
 git clone https://github.com/NathanPyRP/Movies.git
+```
 
 Após clonar o repositório, navegue até o diretório do projeto:
 
+```bash
 cd seu-repositorio
-
+```
 Instale as Dependências:
 
 Antes de iniciar a aplicação, é necessário instalar todas as dependências do projeto. Execute o seguinte comando:
 
+```bash
 npm install
+```
 
 Isso irá instalar todas as bibliotecas e pacotes necessários para rodar a aplicação.
 
